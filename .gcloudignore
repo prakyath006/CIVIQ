@@ -1,0 +1,10 @@
+# .gcloudignore — controls what gets uploaded to Cloud Build
+# NOTE: We include .env.local because Vite needs it during build
+node_modules/
+.git/
+.gemini/
+dist/
+build/
+.vscode/
+.idea/
+*.log
