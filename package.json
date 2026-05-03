@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "node src/__tests__/civiq.test.js",
+    "test": "node --test src/__tests__/*.test.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google-cloud/storage": "^7.1.0",
     "@google/genai": "^0.1.2",
     "firebase": "^11.0.1",
     "framer-motion": "^12.38.0",
